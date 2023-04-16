@@ -1,0 +1,137 @@
+body {
+    border-style: inset;
+    padding: 10px;
+    background-color: floralwhite;
+}
+.firstheading {
+    margin: 0;
+    height: 10%;
+}
+.logo {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    border-radius: 25%;
+    
+}
+.hands {  
+    margin-left: 130px;
+    width: 100vw - 0px;
+    height: 100vh;
+    border-radius: 10%;
+    border-style: dotted;
+}
+.donate {
+    margin-left: 700px;
+    gap: 20px;
+}
+.product
+{
+    position: absolute;
+    top: 145px;
+    margin-left: 40px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+.text {
+  width: 50%;
+  margin-right: 100px;
+}
+.cright
+{
+    margin-top: 100px;
+}
+.billion
+{
+    text-decoration: dotted ;
+}
+#end {
+    margin-left: calc(45%);
+}
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+   }
+   .main_div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   }
+   .centre_div{
+    width: calc(100vw - 40vw);
+    height: calc(100vh -  30vh);
+    position: relative;
+    border: 1px solid#000;
+  
+   }
+   .centre_div h1{
+    padding: 20px 0 20px 20px;
+   }
+   .centre_div p{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 1.1rem;
+    font-style: inherit;
+   }
+  .centre_div span::after{
+   content: "";
+   display: inline-block;
+   width: 0.6rem;
+   height: 0.6rem;
+   border-radius: 50%;
+   font-weight: 600;
+   background: currentColor;
+   margin: 0,0.5rem;
+   text-align: end;
+  }
+  .centre_div h2{
+  
+   position: absolute;
+   bottom: 0;
+   color: grey;
+   padding: 1rem;
+   font-style: italic;
+  }
+  .piecart{
+   background: radial-gradient(circle closest-side,transparent 100%, #fff 0),
+   conic-gradient(
+    from 180deg,
+    blueviolet 0,
+    blueviolet 22.21%,
+    burlywood 0,
+    burlywood 38.9%,
+    aquamarine 0,
+    aquamarine 53%,
+    darkgoldenrod 0, 
+    darkgoldenrod 65.34%,
+    dodgerblue 0,
+    dodgerblue 77.33%,
+    darkmagenta 0,
+    darkmagenta 88.95%,
+    plum 0,
+    plum 100%
+  
+    );
+   min-width:  300px; 
+   min-height: 450px;
+  }
+.mail {
+    margin-right: 50px;
+}
+
+.contact {
+    margin-right: 55px;
+}
+.venue
+{
+    margin-right: 60px;
+}
+.date {
+    margin-right: 0px;
+}
